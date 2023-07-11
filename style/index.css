@@ -160,3 +160,26 @@ body {
     font-weight: 400;
 }
 .hot-deal-container-right {}
+
+/* social media styles  */
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+.social-media{
+    width: 600px;
+    text-align: center;
+    margin: 20px 0;
+}
+.social-media-pictures{
+    
+}
+.social-media-pictures img{
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+}
