@@ -135,7 +135,7 @@ body {
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 50px ;
+    padding: 50px;
 }
 
 .hot-deal-container-left {
@@ -159,33 +159,35 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
 .hot-deal-container-right {}
 
 /* social media styles  */
-.social-media-container{
+.social-media-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-     align-items: center;
+    align-items: center;
     text-align: center;
     margin: 40px 0;
 }
-.social-media{
+
+.social-media {
     width: 600px;
     text-align: center;
     margin: 20px 0;
 }
-.social-media-pictures{
-    
-}
-.social-media-pictures img{
+
+.social-media-pictures {}
+
+.social-media-pictures img {
     width: 250px;
     height: 300px;
     padding: 5px;
 }
 
 /* deals section styles  */
-.deals-section-container{
+.deals-section-container {
     background-image: url('../flower-images/Rectangle\ 9.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -197,15 +199,59 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin: 100px 0;
+
 
 }
+
 .deals-section-top h1 {
     margin-bottom: 10px;
 }
-.deals-section-top p{}
-.deals-section-bottom{}
-.deals-section-bottom input{
+
+.deals-section-top p {}
+
+.deals-section-bottom {}
+
+.deals-section-bottom input {
     padding: 7px 20px;
     font-size: 16px;
 }
-.deals-section-bottom button{}
+
+.deals-section-bottom button {}
+
+/* footer section style  */
+.footer-container {
+    background: #111010;
+    width: 100vw;
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container div {
+    /* margin: 100px auto; */
+    text-align: center;
+    width: 600px;
+
+}
+
+.footer-container div h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+.footer-container div>p{
+    margin-bottom: 20px;
+}
+.footer-container p:last-child{
+    color: gray;
+}
+.footer-container span {
+    color: #E55473;
+}
