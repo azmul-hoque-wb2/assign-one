@@ -178,7 +178,8 @@ body {
     width: 250px;
     height: 300px;
     padding: 5px;
-}.other-social-media-pictures img{
+}
+.other-social-media-pictures img{
     /* border: 2px solid red; */
     width: 80px;
     height: 80px;
@@ -186,7 +187,9 @@ body {
     box-shadow: 4px 8px 12px black;
     padding: 20px;
 }
-
+.other-social-media-pictures img:hover{
+    box-shadow: -4px -8px 12px black;
+}
 .other-social-media-pictures{
     display: flex;
     justify-content: space-around;
@@ -207,8 +210,6 @@ body {
     align-items: center;
     gap: 30px;
     margin: 100px 0;
-
-
 }
 
 .deals-section-top h1 {
