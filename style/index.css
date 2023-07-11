@@ -6,8 +6,7 @@
 }
 
 body {
-    /* max-width: 100vw; */
-    /* max-height: 100vh; */
+   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -51,7 +50,7 @@ body {
     color: white;
 }
 
-.right-div {}
+
 
 .right-div-image {
     margin-top: 30px;
@@ -60,11 +59,7 @@ body {
 
 
 /* featured flowers style  */
-.featured-flower-container {
-    /* max-width: 80vw;
-    max-width: 900px; */
 
-}
 
 .featured-flower-top {
     display: flex;
@@ -76,9 +71,7 @@ body {
     margin: 100px auto 40px;
 }
 
-.featured-flower-top-title {}
 
-.featured-flower-top-info {}
 
 .featured-flower-middle {
     display: flex;
@@ -159,7 +152,9 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-
+.hot-deal-container-left button {
+    margin-top: 15px;
+}
 .hot-deal-container-right {}
 
 /* social media styles  */
@@ -178,12 +173,25 @@ body {
     margin: 20px 0;
 }
 
-.social-media-pictures {}
 
 .social-media-pictures img {
     width: 250px;
     height: 300px;
     padding: 5px;
+}.other-social-media-pictures img{
+    /* border: 2px solid red; */
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 4px 8px 12px black;
+    padding: 20px;
+}
+
+.other-social-media-pictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
 
 /* deals section styles  */
@@ -192,7 +200,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* max-height: 30vh; */
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -207,10 +214,6 @@ body {
 .deals-section-top h1 {
     margin-bottom: 10px;
 }
-
-.deals-section-top p {}
-
-.deals-section-bottom {}
 
 .deals-section-bottom input {
     padding: 7px 20px;
@@ -233,7 +236,6 @@ body {
 }
 
 .footer-container div {
-    /* margin: 100px auto; */
     text-align: center;
     width: 600px;
 
