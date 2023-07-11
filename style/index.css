@@ -183,3 +183,29 @@ body {
     height: 300px;
     padding: 5px;
 }
+
+/* deals section styles  */
+.deals-section-container{
+    background-image: url('../flower-images/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 30vh; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.deals-section-top h1 {
+    margin-bottom: 10px;
+}
+.deals-section-top p{}
+.deals-section-bottom{}
+.deals-section-bottom input{
+    padding: 7px 20px;
+    font-size: 16px;
+}
+.deals-section-bottom button{}
